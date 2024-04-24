@@ -7,12 +7,13 @@
 
 .white-bg {
     background: var(--white-color);
+    color: var(--primary-color);
 }
 
 .main-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 8rem var(--gap);
 }
 
 .section {
@@ -21,4 +22,9 @@
 
 .menu-spacing {
     height: 6.5rem;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
 }
